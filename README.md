@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hi, I'm Emmy
 
-<!--
-**gracee3/gracee3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build local-first systems for inference, speech, domain modeling, and Linux
+infrastructure. I care about explicit contracts, reproducible evidence, and
+tools that remain useful without sending private data to a hosted service.
 
-Here are some ideas to get you started:
+## Selected work
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- [gpt-oss-rs](https://github.com/gracee3/gpt-oss-rs) — a Rust inference runtime
+  being brought to a deliberate, evidence-backed close.
+- [native-asr](https://github.com/gracee3/native-asr) — CPU-only long-form and
+  streaming automatic speech recognition.
+- [whisperX-batch](https://github.com/gracee3/whisperX-batch) — Docker-first GPU
+  batch transcription and benchmarking.
+- [Astraeus](https://github.com/gracee3/astraeus) — a validation-first Rust
+  astrology and ephemeris engine.
+- [Oracle Studio](https://github.com/gracee3/oracle-studio) — a local-first
+  composition and encrypted-storage application.
+- [supermicro-observability](https://github.com/gracee3/supermicro-observability)
+  — host observability tooling with a released initial baseline.
+
+Current work is centered on the next bounded Astraeus validation increment and
+a safety review of the public host and storage assumptions in
+`supermicro-observability`.
