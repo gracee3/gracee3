@@ -1,8 +1,10 @@
 # Hi, I'm Emmy
 
-I'm a **software engineer, solutions architect, and technical subject-matter expert** with 15+ years of professional experience across software development, infrastructure, observability, compliance, data platforms, and technical evaluation.
+I'm a **systems and software engineer and solutions architect** with 15+ years of professional experience spanning software development, infrastructure, observability, data platforms, compliance, and large-scale technical operations.
 
-My current public work focuses on **local AI inference, automatic speech recognition, Rust systems, hardware-aware optimization, reproducible evaluation, and local-first applications**. I've worked with Linux and open-source systems since 2004 and tend to build at the boundaries between software, operating systems, infrastructure, hardware, and measurement.
+I spent seven years at **Virtustream / Dell Technologies**, ultimately serving as the technical product owner and principal architect for global monitoring and compliance. Today I'm applying that systems background to **local AI inference, automatic speech recognition, Rust, hardware-aware optimization, observability, reproducible evaluation, and local-first software**.
+
+I've worked with Linux and open-source systems since 2004 and tend to build at the boundaries between software, operating systems, infrastructure, hardware, and measurement.
 
 **[Resume](./resume.md) · [Technical portfolio](./portfolio.md) · [GitHub repositories](https://github.com/gracee3)**
 
@@ -32,13 +34,17 @@ That usually means:
 - privacy-preserving local and offline systems
 - local-first browser applications using Rust, Leptos, WASM, and IndexedDB
 
-## Background
+## Virtustream / Dell Technologies
 
-Before my current independent research and open-source work, I spent seven years at **Virtustream / Dell Technologies**, ultimately serving as the technical product owner and principal architect for global monitoring and compliance.
+At Virtustream, I owned architecture, technical priorities, operational standards, and cross-functional requirements for global monitoring and compliance across enterprise, federal, and Epic healthcare environments.
 
-My work included architecture across 15 colocation sites and more than 7,500 VMs, a roughly 1 PB HBase/Hadoop-to-BigQuery migration, FedRAMP High and JAB authorization work, observability modernization, vulnerability remediation across more than 2,500 assets, and automation with Ansible, Python, Bash, Prometheus, Grafana, Zabbix, Kubernetes, and related infrastructure.
+My work included architecture across **15 multi-tenant colocation sites and more than 7,500 VMs**, leadership of a roughly **1 PB HBase/Hadoop-to-BigQuery migration**, delivery of a **FedRAMP High GCP extension through JAB authorization**, observability modernization across VMware and infrastructure platforms, and vulnerability-remediation leadership across more than **2,500 assets**.
 
-Earlier in my career I worked in enterprise mobile/software engineering, e-commerce production systems, Java, data integration, and technical support. I also worked remotely for **SHL / Brainbench as an Enterprise Test Developer**, designing and validating more than 150 scenario-based Apple development and system-administration assessment questions, code exercises, performance tasks, and simulations.
+I also built and scaled automation and operational practices with Ansible/AWX, Python, Bash, Prometheus, Grafana, Zabbix, Kubernetes/K3s, ServiceNow, and related infrastructure, while helping grow the global monitoring support organization from 5 to 25 engineers.
+
+## Earlier background
+
+Earlier in my career I worked in enterprise mobile/software engineering, e-commerce production systems, Java, data integration, technical support, and systems engineering.
 
 ## Engineering approach
 
