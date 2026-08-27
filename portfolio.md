@@ -30,6 +30,7 @@ The projects below emphasize:
 | [whisperX-batch](https://github.com/gracee3/whisperX-batch) | Docker-first GPU transcription and benchmark harness | Active stabilization; fresh LibriSpeech dev/test evaluation in progress |
 | [gpt-oss-rs](https://github.com/gracee3/gpt-oss-rs) | Rust-native GPT-OSS inference research | v0.1.0 research program complete; CPU evidence and archived heterogeneous results published |
 | [supermicro-observability](https://github.com/gracee3/supermicro-observability) | Secure, high-frequency host and GPU observability | Released baseline with checkout and optional system installation workflows |
+| [digital-liquid-light-lab](https://github.com/gracee3/digital-liquid-light-lab) | GPU-first real-time liquid-light simulation and performance instrument | Stage 0 native Rust/`wgpu` platform proof complete; bounded 2.5D mathematical specification in progress |
 | [Mirabile](https://github.com/gracee3/mirabile) | Local-first Rust/Leptos CSR/WASM application | Pre-MVP architectural vertical slice with native and browser verification |
 | [Magnolia](https://github.com/gracee3/magnolia) | Modular real-time DSP and signal processing | Experimental active research software with working components |
 
@@ -149,6 +150,26 @@ This project translates enterprise monitoring lessons into a public, host-safe s
 - A bounded JSON observation CLI and local STDIO MCP interface for agents and evaluation harnesses; the interface queries the existing loopback Prometheus endpoint and cannot start or stop monitoring.
 
 The repository began on a Supermicro X11SPA-TF dual-RTX-3090 workstation but deliberately excludes real host, disk, network, GPU, fan-header, and credential identities from committed configuration.
+
+## digital-liquid-light-lab
+
+**Repository:** [github.com/gracee3/digital-liquid-light-lab](https://github.com/gracee3/digital-liquid-light-lab)  
+**Role:** Product concept, systems architecture, simulation research, and implementation  
+**Status:** Active staged research and development
+
+Digital Liquid Light Lab is a research-oriented, performable digital instrument descended from traditional liquid-light shows. Rather than treating the result as a conventional shader or music visualizer, the project models an illuminated thin-layer world in which liquids, pigments, materials, light, and performer-controlled forces interact in real time.
+
+The system is designed around Rust, `wgpu`, WGSL, and a native Vulkan desktop path, with simulation and rendering kept as explicit architectural layers. The current program advances from a 2D grid-based incompressible solver toward a bounded 2.5D height/thickness model with absorption, refraction, scattering, and caustic-like optics; longer-term 3D particle-grid research remains outside the present implementation boundary.
+
+Current engineering work includes:
+
+- a completed Stage 0 native application and GPU-initialization platform proof;
+- a mathematical specification for a saturated thin-gap apparatus before solver implementation;
+- explicit fluid, material, optics, interaction, diagnostics, and evidence boundaries;
+- performance targets for responsive single-GPU execution on RTX-3090-class hardware; and
+- an architecture intended to support projector performance and later gyro, touch, audio, and MIDI control without coupling input devices to the simulation core.
+
+The goal is perceptual physical fidelity and a convincing playable instrument, not scientific-CFD accuracy. The repository distinguishes completed platform evidence, bounded specifications, planned solver work, and longer-term research.
 
 ## Mirabile
 
