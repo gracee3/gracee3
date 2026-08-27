@@ -17,6 +17,7 @@ I've worked with Linux and open-source systems since 2004 and tend to build at t
 | **[whisperX-batch](https://github.com/gracee3/whisperX-batch)** | Docker-first GPU transcription, benchmarking, and reproducible LibriSpeech evaluation |
 | **[gpt-oss-rs](https://github.com/gracee3/gpt-oss-rs)** | Rust-native LLM inference, CPU kernels, heterogeneous execution, and evidence-driven performance research |
 | **[supermicro-observability](https://github.com/gracee3/supermicro-observability)** | Secure high-frequency Linux and NVIDIA GPU observability with Prometheus, Grafana, Rust, and NVML |
+| **[digital-liquid-light-lab](https://github.com/gracee3/digital-liquid-light-lab)** | GPU-first Rust/`wgpu` instrument for real-time, physically inspired liquid-light simulation and performance |
 | **[Mirabile](https://github.com/gracee3/mirabile)** | Local-first Rust/Leptos CSR-WASM application architecture |
 | **[Magnolia](https://github.com/gracee3/magnolia)** | Modular real-time DSP, signal processing, plugins, and low-latency systems research |
 
